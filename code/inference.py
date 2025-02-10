@@ -5,7 +5,7 @@ from ultralytics import YOLO
 def model_fn(model_dir):
     print("Executing model_fn from inference.py ...")
     env = os.environ
-    model = YOLO(os.path.join(model_dir, env['YOLOV8_MODEL']))
+    model = YOLO(os.path.join(model_dir, env['YOLOV11_MODEL']))
     return model
 
 def input_fn(request_body, request_content_type):
