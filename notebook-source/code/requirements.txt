@@ -1,0 +1,7 @@
+nvgpu
+opencv-python
+torchvision
+seaborn
+ultralytics
+pynvml
+omegaconf==2.3.0
